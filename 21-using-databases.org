@@ -462,14 +462,15 @@ the results have already been read, or one row otherwise.
 
 *** Lazy Reading
 
-Back in [[file:7-io.org::*Lazy I/O][the section called "Lazy I/O"]]
-from files. It is also possible to read data lazily from
-databases. This can be particularly useful when dealing with
-queries that return an exceptionally large amount of data. By
-reading data lazily, you can still use convenient functions such
-as ~fetchAllRows~ instead of having to manually read each row as
-it comes in. If you are careful in your use of the data, you can
-avoid having to buffer all of the results in memory.
+Back in [[file:7-io.org::*Lazy I/O][the section called "Lazy I/O",]]
+we talked about lazy I/O from files. It is also possible to read
+data lazily from databases. This can be particularly useful when
+dealing with queries that return an exceptionally large amount of
+data. By reading data lazily, you can still use convenient 
+functions such as ~fetchAllRows~ instead of having to manually 
+read each row as it comes in. If you are careful in your use of 
+the data, you can avoid having to buffer all of the results in 
+memory.
 
 Lazy reading from a database, however, is more complex than
 reading from a file. When you're done reading data lazily from a
