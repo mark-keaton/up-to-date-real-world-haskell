@@ -71,12 +71,12 @@ be obtained from Hackage.
 
 If you want to use HDBC with other databases, check out the HDBC
 Known Drivers page at
-[[http://software.complete.org/hdbc/wiki/KnownDrivers]]. There you
+[[https://github.com/hdbc/hdbc/wiki/KnownDrivers]]. There you
 will find a link to the ODBC binding, which lets you connect to
 virtually any database on virtually any platform (Windows, POSIX,
 and others). You will also find a PostgreSQL binding. MySQL is
 supported via the ODBC binding, and specific information for MySQL
-users can be found in the [[http://software.complete.org/static/hdbc-odbc/doc/HDBC-odbc/][HDBC-ODBC API documentation]].
+users can be found in the [[https://github.com/hdbc/hdbc-odbc/wiki][HDBC-ODBC API documentation]].
 
 ** Connecting to Databases
 
